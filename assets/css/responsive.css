@@ -1,0 +1,514 @@
+/* For large screen laptops */
+
+/* For large Laptop */
+
+@media (max-width: 1440px) {
+
+
+    .container {
+        max-width: 82%;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+        line-height: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        line-height: 2.9rem;
+    }
+
+    .access-cards-container h3 {
+        font-size: 26px;
+    }
+
+    .secure-access h1 {
+        max-width: 35rem;
+    }
+
+    .access-card ul {
+        margin-top: 5px;
+        font-size: 1.2rem;
+        vertical-align: text-top;
+    }
+
+    .access-card ul li {
+        margin-top: 0;
+        margin-bottom: 15px;
+        margin-left: -1em;
+    }
+
+    .access-card ul li::before {
+        font-size: 25px;
+        width: 1em;
+        margin-left: -1em;
+    }
+
+    .access-cards-container a {
+        font-size: 20px;
+    }
+
+
+
+    /* sdp help Section */
+    .sdp-help-card {
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 5vw;
+        padding-right: 1vw;
+        min-height: 80px;
+    }
+
+    .help-card-title h4 {
+        font-size: 22px;
+    }
+
+    .toggle-image {
+        width: 34px;
+    }
+
+
+    .help-card-content p {
+        font-size: 16px;
+    }
+
+    .help-card-content a {
+        font-size: 16px;
+    }
+
+
+
+    /* Related Analyst Material Section */
+
+    .material-card {
+        padding: 20px;
+    }
+
+    .material-card-img {
+        height: 210px;
+    }
+
+    .material-card-containt {
+        min-height: 150px;
+        font-size: 1.2em;
+        line-height: 1.2rem;
+    }
+
+
+    /* Form container */
+
+
+    .talk-to-expert {
+        margin-top: 60px;
+    }
+
+    .form-title-small {
+        font-size: 36px;
+    }
+
+    .form-title-large {
+        font-size: 55px;
+        line-height: 3.5rem;
+    }
+
+    .txt-input input,
+    select {
+        height: 50px;
+        border: 2px solid #D8CEC8;
+        font-size: 22px;
+    }
+
+    .query-form-container {
+        margin-top: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 50px;
+    }
+
+
+
+    .query-form-container {
+        padding-top: 60px;
+        padding-bottom: 50px;
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+
+}
+
+/* For small Laptop */
+
+@media (max-width: 1199px) {
+
+
+    .container {
+        max-width: 92%;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+    }
+
+    .secure-access h1 {
+        max-width: 30rem;
+    }
+
+    .access-cards-container h3 {
+        font-size: 18px;
+    }
+
+    .access-card ul {
+        margin-top: 5px;
+        font-size: 1rem;
+        vertical-align: text-top;
+    }
+
+    .access-card ul li {
+        margin-left: -1em;
+    }
+
+    .access-cards-container a {
+        font-size: 16px;
+    }
+
+    /* sdp help Section */
+
+
+    .help-card-title h4 {
+        font-size: 20px;
+    }
+
+    /* Related Analyst Material Section */
+
+    .material-card {
+        padding: 15px;
+    }
+
+    .material-card-img {
+        height: 170px;
+    }
+
+    .material-card-containt {
+        font-size: 1em;
+    }
+
+
+
+
+
+
+}
+
+
+
+/* For tablet */
+
+@media (max-width:1023px) {
+
+    /* header style */
+
+    .container {
+        max-width: 88%;
+    }
+
+    header .container {
+        padding: 10px;
+    }
+
+    header img {
+        max-width: 35vw;
+    }
+
+
+    /* Secure Access Section */
+
+    .secure-access {
+        padding-top: 65px;
+    }
+
+    .access-card-title {
+        padding-bottom: 0;
+    }
+
+    .secure-access p {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .access-cards-container {
+        padding-top: 25px;
+    }
+
+    .access-cards-container h3 {
+        font-size: 28px;
+    }
+
+    .access-card {
+        width: 100%;
+    }
+
+    .access-card ul {
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+
+    .access-card ul li {
+        margin-left: -0.5em;
+    }
+
+    .access-cards-container a {
+        font-size: 22px;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    /* sdp help Section */
+
+    .help-card-title {
+        padding-right: 10px;
+    }
+
+    .help-card-title h4 {
+        font-size: 22px;
+    }
+
+    .help-card-content p {
+        padding-right: 32px;
+    }
+
+    .help-card-content a {
+        font-size: 20px;
+    }
+
+    .toggle-image {
+        width: 28px;
+        height: 28px;
+    }
+
+
+    .help-card-title .arrow {
+        padding: 4px;
+
+    }
+
+    .down {
+        margin-top: 2px;
+    }
+
+    .up {
+        margin-top: 7px;
+    }
+
+    /* Related Analyst Material Section */
+
+    .related-material {
+        padding-top: 15px;
+    }
+
+    .material-card-container {
+        flex-direction: column;
+        margin: 20px;
+        padding: 0%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .material-card {
+        padding: 30px;
+        width: 83%;
+    }
+
+    .material-card-img {
+        height: 42vw;
+        width: 100%;
+    }
+
+    .material-card-containt {
+        font-size: 1.5em;
+        line-height: 2.5rem;
+        padding-top: 5px;
+    }
+
+
+    .img-mobile {
+        width: 70%;
+    }
+
+    .img-full-Cyxterra {
+        width: 60%;
+    }
+
+    /* Form container */
+
+    .form-title-small {
+        font-size: 26px;
+    }
+
+    .form-title-large {
+        font-size: 45px;
+        line-height: 3rem;
+    }
+
+    /* .talk-to-expert::before{
+        width: 15%; 
+    }
+    .talk-to-expert::after{
+        content: url("../images/Group 8810.svg");
+        bottom: -5px;
+        right: 0;
+        position: absolute;
+        width: 50px;
+    } */
+
+    .mask-img-1 {
+        width: 15%;
+    }
+
+    .mask-img-2 {
+        width: 20%;
+    }
+
+    .txt-input {
+        width: 100%;
+    }
+
+
+    .query-form-container {
+        padding-top: 60px;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 50px;
+    }
+
+}
+
+/* For mobile phones */
+
+@media (max-width: 767px) {
+
+    /* header style */
+    header .container {
+        padding-top: 5px;
+        padding-bottom: 0;
+    }
+
+    header .header-text {
+        font-size: 1rem;
+    }
+
+    /* Secure Access Section */
+
+    h1 {
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+    }
+
+    .secure-access h1 {
+        max-width: 20rem;
+    }
+
+    .secure-access p {
+        font-size: 16px;
+    }
+
+    .access-cards-container h3 {
+        font-size: 22px;
+    }
+
+    .access-card ul {
+        margin-top: 5px;
+        font-size: 1rem;
+    }
+
+    .access-card ul li {
+        margin-left: -1em;
+    }
+
+    .access-card ul li::before {
+        margin-left: -1em;
+    }
+
+
+    .access-cards-container a {
+        font-size: 18px;
+    }
+
+    /* sdp help Section */
+    .sdp-help-card {
+        padding-top: 0px;
+    }
+
+    .help-card-title h4 {
+        font-size: 18px;
+        padding-right: 25px;
+    }
+
+
+    .toggle-image {
+        width: 28px;
+    }
+
+    .help-card-content p {
+        padding-right: 16px;
+    }
+
+    .help-card-content a {
+        font-size: 16px;
+    }
+
+    /* Related Analyst Material Section */
+
+    .related-material {
+        padding: 0px;
+    }
+
+    .material-card {
+        padding: 30px;
+        padding-top: 10px;
+        width: 83%;
+    }
+
+    .material-card-containt {
+        min-height: 80px;
+        font-size: 1.1em;
+        line-height: 1.3rem;
+    }
+
+    /* Form container */
+
+    .form-title-small {
+        font-size: 22px;
+    }
+
+
+    .form-title-large {
+        font-size: 40px;
+    }
+
+    .txt-input input,
+    select {
+        font-size: 16px;
+    }
+
+    .query-form-inputs input[type=submit] {
+        font-size: 16px;
+        width: 130px;
+        height: 50px;
+    }
+
+}

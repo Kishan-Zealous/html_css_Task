@@ -5,229 +5,313 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <title>Demo-2-1</title>
 </head>
-
 <body>
     <header>
-        <a href="index.html"><img src="assets/appgate__Logo_Black_RGB_ForWeb.svg" alt="appgate_Logo"></a>
-        <p>Talk to an Expert</p>
+        <div class="container">
+            <a class="logo" href="index.html"><img src="assets/images/appgate__Logo_Black_RGB_ForWeb.svg"
+                    alt="appgate_Logo"></a>
+            <a class="header-text" href="#talk-to-expert">Talk to an Expert</a>
+        </div>
     </header>
     <main>
-        <section class="content-1">
-            <div class="content-title">
-                <span>Secure Access,<br>With Confidence</span>
-            </div>
-            <p>Cybersecurity will never be easy. 
-                However, when you’re confident access is secured, 
-                you’re able to focus resources on unavoidable threat complexities and the grander vision of your security program.
-            </p>
+        <section class="secure-access">
+            <div class="container">
+                <div class="access-card-title">
+                    <h1>
+                        Secure Access, With Confidence
+                    </h1>
+                    <p>Cybersecurity will never be easy.
+                        However, when you’re confident access is secured,
+                        you’re able to focus resources on unavoidable threat complexities and the grander vision of your
+                        security program.
+                    </p>
+                </div>
 
-            <div class="flex-container">
-                <div class="card-1">
-                    <p>Appgate SDP<br>Makes Hard, Easier</p>
-                    <ul>
-                        <li><b>Unify Access:</b> A consistent experience and configuration across all hybrid IT
-                            environments</li>
-                        <li><b>Simplify Policies:</b> A single framework for all users, devices, networks and
-                            infrastructure</li>
-                        <li><b>Streamline Automation:</b> Security-as-code allows policies to dynamically scale and
-                            bi-directional APIs create efficiencies when integrated with existing business systems</li>
-                    </ul>
-                    <a href="index.html"><b>Learn More ></b></a>
-                </div>
-                <div class="card-2">
-                    <picture>
-                        <source srcset="assets/appgate-illustrations_Reduce_IT_Complexity.png"
-                            media="(max-width: 767px)">
-                        <source srcset="assets/appgate-illustrations_Reduce_IT_Complexity@2x.png">
-                        <img src="assets/appgate-illustrations_Reduce_IT_Complexity@2x.png" alt="appgate-illustrations_Reduce_IT_Complexity">
-                    </picture>
-                </div>
-                <div class="card-3">
-                    <picture>
-                        <source srcset="assets/appgate-illustrations_Strength_Security.png" media="(max-width: 767px)">
-                        <source srcset="assets/appgate-illustrations_Strength_Security@2x.png">
-                        <img src="assets/appgate-illustrations_Strength_Security@2x.png" alt="appgate-illustrations_Strength_Security">
-                    </picture>
-                </div>
-                <div class="card-4">
-                    <P>Appgate SDP<br>Enforces Zero Trust Security</P>
-                    <ul>
-                        <li><b>Eliminate Attack Surface:</b> Resources are invisible until authenticated and authorized,
-                            preventing lateral movement and open port scanning</li>
-                        <li><b>Verify Identity:</b> Access is conditional and contextual based on user profile and
-                            device posture, not just an IP address</li>
-                        <li><b>Dynamically Adjust Entitlements:</b> Automate real-time changes based on context, risk
-                            and conditions</li>
-                    </ul>
-                    <a href="index.html"><b>Learn More ></b></a>
-                </div>
-            </div>
-        </section>
-
-        <section class="content-2">
-            <div class="content-title">
-                <span>Solving Today’s <br>Secure Access Challenges</span>
-            </div>
-            <p>When it comes to network security there are many challenges and they vary based on your organization’s
-                 digital transformation efforts. What can SDP help you solve?
-            </p>
-
-            <div class="rect-cards">
-                <div class="rect-card-1">
-                    <div>
-                        <p>Remote Access & VPN Replacement</p>
+                <div class="access-cards-container">
+                    <div class="access-card">
+                        <h3>Appgate SDP<br>Makes Hard, Easier</h3>
+                        <ul>
+                            <li><b>Unify Access:</b> A consistent experience and configuration across all hybrid IT
+                                environments</li>
+                            <li><b>Simplify Policies:</b> A single framework for all users, devices, networks and
+                                infrastructure</li>
+                            <li><b>Streamline Automation:</b> Security-as-code allows policies to dynamically scale and
+                                bi-directional APIs create efficiencies when integrated with existing business systems
+                            </li>
+                        </ul>
+                        <a href="#"><b>Learn More ></b></a>
                     </div>
-                    <img src="assets/Group 8813.svg" alt="droup_down">
-                </div>
-
-                <div class="rect-card-2">
-                    <div>
-                        <p>Unified Cloud & On-Prem Access</p>
-                    </div>
-                    <img src="assets/Group 8814.svg" alt="droup_down">
-                </div>
-
-                <div class="rect-card-3" id="rect-card-3">
-                    <div>
-                        <p>Overprivileged Third Party Access</p>
-                        <img src="assets/Group 8814.svg" alt="droup_up" id="group8815" onclick="rect_btn()">
-                    </div> 
-                    <div id="rect-card-content-3">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                            voluptua.</p><br>
-                        <a href="index.html">Read Now > </a>
-                    </div>
-                </div>
-
-                <div class="rect-card-4">
-                    <div>
-                        <p>Secure DevOps Access</p>
-                    </div>
-                    <img src="assets/Group 8816.svg" alt="droup_down">
-                </div>
-
-                <div class="rect-card-5">
-                    <div>
-                        <p>Zero Trust</p>
-                    </div>
-                    <img src="assets/Group 8817.svg" alt="droup_down">
-                </div>
-            </div>
-        </section>
-
-        <section class="content-3">
-            <div class="content-title title-3">
-                <span>Related Analyst Materials</span>
-            </div>
-
-            <div class="small-cards">
-                <div class="small-card-1">
-                    <div class="rect-img-1">
-                        <img class="img-nocircle" src="assets/Rectangle 2340.svg" alt="GettyImages-928408372_NoCircle">
+                    <div class="access-card">
                         <picture>
-                            <source srcset="assets/GettyImages-928408372_NoCircle.png" media="(max-width: 767px)">
-                            <source srcset="assets/GettyImages-928408372_NoCircle@2x.png">
-                            <img class="img-nocircle" src="assets/GettyImages-928408372_NoCircle@2x.png" alt="GettyImages-928408372_NoCircle">
+                            <source srcset="assets/images/appgate-illustrations_Reduce_IT_Complexity.png"
+                                media="(max-width: 767px)">
+                            <source srcset="assets/images/appgate-illustrations_Reduce_IT_Complexity@2x.png">
+                            <img src="assets/images/appgate-illustrations_Reduce_IT_Complexity@2x.png"
+                                alt="appgate-illustrations_Reduce_IT_Complexity">
                         </picture>
                     </div>
-                    <div class="s-card-containt">
-                    <p>2020 Forrester Wave: Zero Trust eXtended Ecosystem Providers</p>
-                    <a href="index.html">Get Report ></a>
-                    </div>
                 </div>
-                <div class="small-card-2">
-                    <div class="rect-img-2">
+                <div class="access-cards-container reverse">
+                    <div class="access-card">
                         <picture>
-                            <source srcset="assets/mobile.png" media="(max-width: 767px)">
-                            <source srcset="assets/mobile@2x.png">
-                            <img src="assets/mobile@2x.png" alt="mobile_image">
+                            <source srcset="assets/images/appgate-illustrations_Strength_Security.png"
+                                media="(max-width: 767px)">
+                            <source srcset="assets/images/appgate-illustrations_Strength_Security@2x.png">
+                            <img src="assets/images/appgate-illustrations_Strength_Security@2x.png"
+                                alt="appgate-illustrations_Strength_Security">
                         </picture>
                     </div>
-                    <div class="s-card-containt">
-                        <p>Zero Trust Network Access Demo</p>
-                        <a href="index.html">Watch Now ></a>
-                    </div>
-                </div>
-                <div class="small-card-3">
-                    <div class="rect-img-3">
-                        <picture>
-                            <source srcset="assets/tablet.png" media="(max-width: 767px)">
-                            <source srcset="assets/tablet@2x.png">
-                            <img src="assets/tablet@2x.png" alt="appgate">
-                        </picture>
-                    </div>
-                    <div class="s-card-containt">
-                        <p>Gartner ZTNA Video Series</p>
-                        <a href="index.html">Watch Now ></a>
-                    </div>
-                </div>
-                <div class="small-card-4">
-                    <div class="rect-img-4">
-                        <picture>
-                            <source srcset="assets/full-Cyxterra.png" media="(max-width: 767px)">
-                            <source srcset="assets/full-Cyxterra@2x.png">
-                            <img src="assets/full-Cyxterra@2x.png" alt="full-Cyxterra">
-                        </picture>
-                    </div>
-                    <div class="s-card-containt">
-                        <p>2020 Gartner ZTNA Market Guide</p>
-                        <a href="index.html">Get Report ></a>
+                    <div class="access-card">
+                        <h3>Appgate SDP<br>Enforces Zero Trust Security</h3>
+                        <ul>
+                            <li><b>Eliminate Attack Surface:</b> Resources are invisible until authenticated and
+                                authorized,
+                                preventing lateral movement and open port scanning</li>
+                            <li><b>Verify Identity:</b> Access is conditional and contextual based on user profile and
+                                device posture, not just an IP address</li>
+                            <li><b>Dynamically Adjust Entitlements:</b> Automate real-time changes based on context,
+                                risk
+                                and conditions</li>
+                        </ul>
+                        <a href="#"><b>Learn More ></b></a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="content-4">
-            <img class="mask-img-1" src="assets/Mask Group 1.svg" alt="Mask Group 1">
+        <section class="sdp-help">
+            <div class="container">
+                <h2>
+                    Solving Today’s <br>Secure Access Challenges
+                </h2>
+                <p>
+                    When it comes to network security there are many challenges and they vary based on your
+                    organization’s
+                    digital transformation efforts. What can SDP help you solve?
+                </p>
+                <div class="sdp-card-container">
+                    <div class="sdp-help-card">
+                        <div class="help-card-title">
+                            <h4>Remote Access & VPN Replacement</h4>
+                            <!-- <div class="toggle-image"><img src="assets/images/Group 8813.svg" alt="droup_down"></div> -->
+                            <div class="toggle-image">
+                                <div class="arrow down"></div>
+                            </div>
+                        </div>
 
-            <div class="form-title">
-                <div>
-                    <p class="form-head-s">Talk to an Expert, Today</p>
-                    <p class="form-head-l">Make Hard,</p>
-                    <p class="form-head-l" style="color: #000000;">Easier.</p>
-                    <p>Our team is available to help answer questions, demo Appgate SDP and discuss pricing. 
+                        <div id="remote-access" class="help-card-content">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                                voluptua.</p><br>
+                            <a href="#">Read Now > </a>
+                        </div>
+                    </div>
+
+                    <div class="sdp-help-card">
+                        <div class="help-card-title">
+                            <h4>Unified Cloud & On-Prem Access</h4>
+                            <!-- <div class="toggle-image .arrow"><img src="assets/images/Group 8814.svg" alt="droup_down"></div> -->
+                            <div class="toggle-image">
+                                <div class="arrow down"></div>
+                            </div>
+                        </div>
+
+                        <div id="unified-cloud" class="help-card-content">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                                voluptua.</p><br>
+                            <a href="#">Read Now > </a>
+                        </div>
+                    </div>
+
+                    <div class="sdp-help-card" id="sdp-help-card">
+                        <div class="help-card-title">
+                            <h4>Overprivileged Third Party Access</h4>
+                            <!-- <div class="toggle-image"><img src="assets/images/Group 8813.svg" alt="droup_down"></div> -->
+                            <div class="toggle-image">
+                                <div class="arrow down"></div>
+                            </div>
+                        </div>
+
+                        <div id="third-party-access" class="help-card-content">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                                voluptua.</p><br>
+                            <a href="#">Read Now > </a>
+                        </div>
+                    </div>
+
+                    <div class="sdp-help-card">
+                        <div class="help-card-title">
+                            <h4>Secure DevOps Access</h4>
+                            <!-- <div class="toggle-image"><img src="assets/images/Group 8813.svg" alt="droup_down"></div> -->
+                            <div class="toggle-image">
+                                <div class="arrow down"></div>
+                            </div>
+                        </div>
+
+                        <div id="secure-devops" class="help-card-content">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                                voluptua.</p><br>
+                            <a href="#">Read Now > </a>
+                        </div>
+                    </div>
+
+                    <div class="sdp-help-card">
+                        <div class="help-card-title">
+                            <h4>Zero Trust</h4>
+                            <!-- <div class="toggle-image"><img src="assets/images/Group 8813.svg" alt="droup_down"></div> -->
+                            <div class="toggle-image">
+                                <div class="arrow down"></div>
+                            </div>
+                        </div>
+
+                        <div id="zero-trust" class="help-card-content">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                                voluptua.</p><br>
+                            <a href="#">Read Now > </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="related-material">
+            <div class="container">
+                <h2>
+                    Related Analyst Materials
+                </h2>
+                <div class="material-card-container">
+                    <div class="material-card">
+                        <div class="material-card-img">
+                            <div class="img-2340">
+                                <img src="assets/images/Rectangle 2340.svg" alt="GettyImages-928408372_NoCircle">
+                            </div>
+                            <div class="img-nocircle">
+                                <img src="assets/images/GettyImages-928408372_NoCircle@2x.png"
+                                    alt="GettyImages-928408372_NoCircle">
+                            </div>
+
+                        </div>
+                        <div class="material-card-containt">
+                            <p>2020 Forrester Wave: Zero Trust eXtended Ecosystem Providers</p>
+                            <a href="#">Get Report ></a>
+                        </div>
+                    </div>
+                    <div class="material-card">
+                        <div class="material-card-img img-mobile">
+                            <img src="assets/images/mobile@2x.png" alt="mobile_image">
+                        </div>
+                        <div class="material-card-containt">
+                            <p>Zero Trust Network Access Demo</p>
+                            <a href="#">Watch Now ></a>
+                        </div>
+                    </div>
+                    <div class="material-card">
+                        <div class="material-card-img">
+                            <img src="assets/images/tablet@2x.png" alt="appgate">
+                        </div>
+                        <div class="material-card-containt">
+                            <p>Gartner ZTNA Video Series</p>
+                            <a href="#">Watch Now ></a>
+                        </div>
+                    </div>
+                    <div class="material-card">
+                        <div class="material-card-img img-full-Cyxterra">
+                            <img src="assets/images/full-Cyxterra@2x.png" alt="full-Cyxterra">
+                        </div>
+                        <div class="material-card-containt">
+                            <p>2020 Gartner ZTNA Market Guide</p>
+                            <a href="#">Get Report ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="talk-to-expert" id="talk-to-expert">
+            <img class="mask-img-1" src="assets/images/Mask Group 1.svg" alt="Mask Group 1">
+
+            <div class="query-form-container">
+                <div class="query-form-title">
+                    <p class="form-title-small">Talk to an Expert, Today</p>
+                    <p class="form-title-large">Make Hard,</p>
+                    <p class="form-title-large color-black">Easier.</p><br>
+                    <p>Our team is available to help answer questions, demo Appgate SDP and discuss pricing.
                         How can we help you deliver secure access with confidence? </p>
                 </div>
-                <div class="form-container">
-                    <input type="text" class="name" placeholder="First Name*" required />
-                    <input type="text" class="name" placeholder="Last Name*" required />
-                    <input type="email" placeholder="Email*" required/>
-                    <input type="text" placeholder="Job Title*" required />
-                    <input type="text" placeholder="Company*" required/>
-                    <select required>
-                        <option value="" disabled selected>Country*</option>
-                        <option>India</option>
-                        <option>USA</option>
-                        <option>Japan</option>
-                        <option>Austraila</option>
-                    </select>
-                    <select required>
-                        <option value="" disabled selected>State</option>
-                        <option>Gujarat</option>
-                        <option>Rajasthan</option>
-                        <option>Bihar</option>
-                        <option>Odisha</option>
-                    </select>
-                    <input type="text" placeholder="Phone*" required />
-                    <input type="image" src="assets/Group 6010.svg" alt="Submit" style="float:right">
-                </div>
+                <form action="">
+                    <div class="query-form-inputs">
+                        <div class="txt-input">
+                            <input type="text" class="name" placeholder="First Name*" required />
+                        </div>
+                        <div class="txt-input">
+                            <input type="text" class="name" placeholder="Last Name*" required />
+                        </div>
+                        <div class="txt-input">
+                            <input type="email" placeholder="Email*" required />
+                        </div>
+                        <div class="txt-input">
+                            <input type="text" placeholder="Job Title*" required />
+                        </div>
+                        <div class="txt-input">
+                            <input type="text" placeholder="Company*" required />
+                        </div>
+                        <div class="txt-input">
+                            <select required>
+                                <option value="" disabled selected>Country*</option>
+                                <option>India</option>
+                                <option>USA</option>
+                                <option>Japan</option>
+                                <option>Austraila</option>
+                            </select>
+                        </div>
+                        <div class="txt-input">
+                            <select required>
+                                <option value="" disabled selected>State</option>
+                                <option>Gujarat</option>
+                                <option>Rajasthan</option>
+                                <option>Bihar</option>
+                                <option>Odisha</option>
+                            </select>
+                        </div>
+                        <div class="txt-input">
+                            <input type="text" placeholder="Phone*" required />
+                        </div>
+                        <div class="query-form-submit">
+                            <input type="submit" value="Submit Form">
+                        </div>
+                    </div>
+                </form>
             </div>
-            <img class="mask-img-2" src="assets/Group 8810.svg" alt="Mask Group 2">
+            <img class="mask-img-2" src="assets/images/Group 8810.svg" alt="Mask Group 2">
         </section>
     </main>
     <footer>
-        <div><a href="index.html"> <img src="assets/appgate__Logo_White_RGB_ForWeb.svg" alt="appgate_Logo"></a></div>
-        <p>Appgate 2020. All Rights Reserved. <br><br><a href="index.html">Terms of Use</a> | <a href="index.html">Privacy Policy </a>|<a href="index.html"> Cookie Policy</a></p>
-        <a href="https://in.linkedin.com/"><img src="assets/Social_Icons_RGB_LinkedIn.svg" alt="LinkedIn_Logo"></a>
-        <a href="https://twitter.com/i/flow/login"><img src="assets/Social_Icons_RGB_Twitter.svg" alt="Twitter_Logo"></a>
-        <a href="https://www.facebook.com/"><img src="assets/Social_Icons_RGB_Facebook.svg" alt="Facebook_Logo"></a>
-        <a href="https://www.youtube.com/"><img src="assets/Social_Icons_RGB_YouTube.svg" alt="Youtube_Logo"></a>
+        <div>
+            <a class="logo" href="index.html"> <img src="assets/images/appgate__Logo_White_RGB_ForWeb.svg"
+                    alt="appgate_Logo"></a>
+            <p>Appgate 2020. All Rights Reserved. <br><br><a href="#">Terms of Use</a> | <a href="#">Privacy Policy
+                </a>|<a href="#"> Cookie Policy</a></p>
+            <div class="social-links">
+                <a href="https://in.linkedin.com/"><img src="assets/images/Social_Icons_RGB_LinkedIn.svg"
+                        alt="LinkedIn_Logo"></a>
+                <a href="https://twitter.com/i/flow/login"><img src="assets/images/Social_Icons_RGB_Twitter.svg"
+                        alt="Twitter_Logo"></a>
+                <a href="https://www.facebook.com/"><img src="assets/images/Social_Icons_RGB_Facebook.svg"
+                        alt="Facebook_Logo"></a>
+                <a href="https://www.youtube.com/"><img src="assets/images/Social_Icons_RGB_YouTube.svg"
+                        alt="Youtube_Logo"></a>
+            </div>
+        </div>
     </footer>
-    <script src="index.js"></script>
+    <script src="assets/js/index.js"></script>
 
 </body>
 
